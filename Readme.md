@@ -1,3 +1,5 @@
+
+Projet Blockchain GL5 - Plateforme de suivi des avions par les compagnies aériennes en utilisant Hyperledger Fabric
 # Plateforme de suivi des avions
 
 * Application distribuée développée dont l'objectif est de mettre en place une plateforme de tracabilité des avions et leur maintance et ceci en utilisant la technologie hyperledgerFabric
@@ -17,7 +19,7 @@ La solution proposée espère résoudre le problème le plus paradoxal de la cha
 
 ### Background
 
-Pour une compagnie aérienne typique comme Air Canada, Delta, KLM, etc., un avion suit le cycle illustré dans la figure ci-dessous : 
+Pour une compagnie aérienne typique comme Air Canada, Delta, KLM, etc., un avion suit le cycle illustré dans la figure ci-dessous : 
 ![](./documentation/lifeCycle.png)  
 L'avion est livré et le cycle de maintenance et de vols se déroule jusqu'à ce qu'il soit déterminé qu'il sera vendu ou mis au rebut. Au cours des procédures MRO, les pièces peuvent être fournies comme neuves par des fournisseurs externes ou elles peuvent être récupérées à partir d'un avion mis au rebut. Ces pièces sont encore utilisables car elles n'ont pas dépassé leur seuil d'heures de vol.
 
@@ -58,7 +60,7 @@ Le diagramme suivant montre les 5 différents types d'interactions pour le PoC.
 1. L'administrateur demande des informations sur l'ensemble de la flotte.
 1. L'administrateur vend ou met au rebut l'avion.
 
-_Remarque : les appareils IoT et la maintenance prédictive ne sont pas implémentés dans PoC_
+_Remarque : les appareils IoT et la maintenance prédictive ne sont pas implémentés dans PoC_
 
 ![](./documentation/sequenceDiagram.png)
 
