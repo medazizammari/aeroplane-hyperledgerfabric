@@ -17,16 +17,19 @@ Ce projet ne cherche pas à fournir une solution globale pour l'ensemble de la c
 
 La solution proposée espère résoudre le problème le plus paradoxal de la chaîne d'approvisionnement : comment augmenter la fiabilité, la sécurité et la qualité tout en diminuant les coûts.
 
-### Background
+### Intérêts et objectifs
 
 Pour une compagnie aérienne typique comme Air Canada, Delta, KLM, etc., un avion suit le cycle illustré dans la figure ci-dessous : 
+
 ![](./documentation/lifeCycle.png)  
+
+
 L'avion est livré et le cycle de maintenance et de vols se déroule jusqu'à ce qu'il soit déterminé qu'il sera vendu ou mis au rebut. Au cours des procédures MRO, les pièces peuvent être fournies comme neuves par des fournisseurs externes ou elles peuvent être récupérées à partir d'un avion mis au rebut. Ces pièces sont encore utilisables car elles n'ont pas dépassé leur seuil d'heures de vol.
 
 
 Le problème est que les dossiers de maintenance sont souvent encore suivis sur papier, et le dossier d'un avion peut être constitué de classeurs remplis de diverses informations. De plus, les pièces qui ont été utilisées dans d'autres aéronefs peuvent ne pas avoir la bonne provenance et manquer d'informations critiques concernant leur durée de vie. Dans l'ensemble, les informations sont plus difficiles à trouver et à suivre, ce qui met la vie des clients en jeu et introduit des inefficacités dans un plan d'horaires de vol très soigneusement optimisé.
 
-### Solution Architecture
+### L'architecture de la solution
 
 La solution proposée exploite la technologie blockchain via Hyperledger Fabric pour le suivi et le partage d'informations au sein d'une compagnie aérienne et avec d'autres compagnies aériennes lorsqu'un avion doit être vendu. Les enregistrements de maintenance et de provenance des pièces peuvent être facilement stockés sur le réseau blockchain par les fournisseurs MRO via des mises à jour manuelles et l'intégration d'appareils IoT.
 
@@ -39,7 +42,7 @@ Cependant, les appareils IoT fournissent souvent d'énormes quantités d'informa
 
 La section traite des paramètres techniques utilisés dans Hyperledger Fabric, l'API Expresss et le frontal React.
 
-### Architecture
+### L'architecture
 
 **Hyperledger Fabric**  
 Blockchain en tant que backend où les informations sur les avions et les pièces peuvent être stockées selon les données et les paramètres spécifiés ci-dessous. L'implémentation actuelle n'utilise qu'un seul channel, utilisateur et administrateur pour la preuve de concept. Les futures implémentations utiliseraient différents canaux, utilisateurs, administrateurs et stockage de données privées en fonction de l'échelle et du nombre d'entreprises.
