@@ -1,5 +1,9 @@
 
-Projet Blockchain GL5 - Plateforme de suivi des avions par les compagnies aériennes en utilisant Hyperledger Fabric
+* Projet Blockchain GL5 - Plateforme de suivi des avions par les compagnies aériennes en utilisant Hyperledger Fabric
+
+* Lien de la présentation : https://docs.google.com/presentation/d/1J84Cpno0GSwtXYVDmBdaTpJAixA8BIhAaV104LKs7kY/edit#slide=id.p
+
+
 # Plateforme de suivi des avions
 
 * Application distribuée développée dont l'objectif est de mettre en place une plateforme de tracabilité des avions et leur maintance et ceci en utilisant la technologie hyperledgerFabric
